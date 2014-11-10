@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<operators name="tutorial" version="5.0" docbundle="com/rapidminer/resources/i18n/OperatorsDocTutorial">
+   <group key="">
+      <group key="tutorial">
+         <group key="data_transformation">
+            <group key="type_conversion">
+               <operator>
+                  <key>numerical_to_date</key>
+                  <class>com.rapidminer.operator.preprocessing.transformation.Numerical2DateOperator
+                  </class>
+               </operator>
+            </group>
+         </group>
+         <group key="process_control">
+            <group key="loop">
+               <operator>
+                  <key>loop_infinitely</key>
+                  <class>com.rapidminer.operator.meta.LoopInfinitely</class>
+               </operator>
+            </group>
+         </group>
+         <operator>
+            <key>process_game_data</key>
+            <class>com.rapidminer.operator.game.ProcessGameDataOperator</class>
+         </operator>
+         <operator>
+            <key>extract_age</key>
+            <class>com.rapidminer.operator.game.extractors.ExtractAgeOperator</class>
+         </operator>
+      </group>
+   </group>
+</operators>

@@ -1,0 +1,16 @@
+buildscript {
+	dependencies { classpath 'com.rapidminer.gradle:extension:0.6.+' }
+}
+
+apply plugin: 'com.rapidminer.gradle.extension'
+
+extensionConfig {
+	name 'Tutorial'
+
+	// define RapidMiner version and extension dependencies
+	dependencies {
+		rapidminer '6.1.0'
+		extension namespace: 'text', version: '6.1.0'
+	}
+}
+
