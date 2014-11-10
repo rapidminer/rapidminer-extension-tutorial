@@ -10,7 +10,11 @@ extensionConfig {
 	// define RapidMiner version and extension dependencies
 	dependencies {
 		rapidminer '6.1.0'
-		extension namespace: 'text', version: '6.1.0'
+		//extension namespace: 'text', version: '6.1.0'
 	}
 }
 
+// Define third party library dependencies
+dependencies {
+	//compile 'com.google.guava:guava:18.0'
+}
