@@ -22,6 +22,7 @@
          <operator>
             <key>process_game_data</key>
             <class>com.rapidminer.operator.game.ProcessGameDataOperator</class>
+            <icon>gear.png</icon>
          </operator>
          <operator>
             <key>extract_age</key>
