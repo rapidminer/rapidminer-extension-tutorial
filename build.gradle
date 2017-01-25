@@ -45,3 +45,7 @@ extensionConfig {
 dependencies {
 	//compile 'com.google.guava:guava:18.0'
 }
+
+task makeWrapper(type: Wrapper) {
+    gradleVersion = '2.14.1'
+}
