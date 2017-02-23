@@ -6,7 +6,7 @@
             <group key="type_conversion">
                <operator>
                   <key>numerical_to_date</key>
-                  <class>com.rapidminer.operator.preprocessing.transformation.Numerical2DateOperator
+                  <class>com.rapidminer.extension.tutorial.operator.preprocessing.transformation.Numerical2DateOperator
                   </class>
                </operator>
             </group>
@@ -15,18 +15,18 @@
             <group key="loop">
                <operator>
                   <key>loop_infinitely</key>
-                  <class>com.rapidminer.operator.meta.LoopInfinitely</class>
+                  <class>com.rapidminer.extension.tutorial.operator.meta.LoopInfinitely</class>
                </operator>
             </group>
          </group>
          <operator>
             <key>process_game_data</key>
-            <class>com.rapidminer.operator.game.ProcessGameDataOperator</class>
+            <class>com.rapidminer.extension.tutorial.operator.game.ProcessGameDataOperator</class>
             <icon>gear.png</icon>
          </operator>
          <operator>
             <key>extract_age</key>
-            <class>com.rapidminer.operator.game.extractors.ExtractAgeOperator</class>
+            <class>com.rapidminer.extension.tutorial.operator.game.extractors.ExtractAgeOperator</class>
          </operator>
       </group>
    </group>

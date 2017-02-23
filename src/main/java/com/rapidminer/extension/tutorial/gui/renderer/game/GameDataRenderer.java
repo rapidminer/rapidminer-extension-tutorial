@@ -20,7 +20,7 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see http://www.gnu.org/licenses/.
  */
-package com.rapidminer.gui.renderer.game;
+package com.rapidminer.extension.tutorial.gui.renderer.game;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,9 +29,9 @@ import javax.swing.table.AbstractTableModel;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
 
+import com.rapidminer.extension.tutorial.operator.game.GameDataIOObject;
 import com.rapidminer.gui.renderer.AbstractTableModelTableRenderer;
 import com.rapidminer.operator.IOContainer;
-import com.rapidminer.operator.game.GameDataIOObject;
 import com.rapidminer.tools.container.Pair;
 
 /**

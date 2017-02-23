@@ -20,7 +20,7 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see http://www.gnu.org/licenses/.
  */
-package com.rapidminer.operator.preprocessing.transformation;
+package com.rapidminer.extension.tutorial.operator.preprocessing.transformation;
 
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
