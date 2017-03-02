@@ -20,12 +20,12 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see http://www.gnu.org/licenses/.
  */
-package com.rapidminer.operator.game.extractors;
+package com.rapidminer.extension.tutorial.operator.game.extractors;
 
+import com.rapidminer.extension.tutorial.operator.game.GameDataIOObject;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.game.GameDataIOObject;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
 

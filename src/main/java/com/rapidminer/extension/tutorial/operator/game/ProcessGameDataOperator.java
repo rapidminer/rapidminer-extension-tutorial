@@ -20,7 +20,7 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see http://www.gnu.org/licenses/.
  */
-package com.rapidminer.operator.game;
+package com.rapidminer.extension.tutorial.operator.game;
 
 import java.util.LinkedList;
 import java.util.List;

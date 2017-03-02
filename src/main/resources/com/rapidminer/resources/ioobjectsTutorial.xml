@@ -3,7 +3,7 @@
         name="GameData"
         class="com.rapidminer.operator.game.GameDataIOObject"
         reportable="false">
-        <renderer>com.rapidminer.gui.renderer.game.GameDataRenderer</renderer>
+        <renderer>com.rapidminer.extension.tutorial.gui.renderer.game.GameDataRenderer</renderer>
         <renderer>com.rapidminer.gui.renderer.DefaultTextRenderer</renderer>
     </ioobject>
 
