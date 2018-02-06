@@ -37,7 +37,7 @@ extensionConfig {
 	// define RapidMiner version and extension dependencies
 	dependencies {
        rapidminer '8.1.0'
-		//extension namespace: 'text', version: '7.5.0'
+		//extension namespace: 'text', version: '8.1.0'
 	}
 }
 
