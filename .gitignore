@@ -4,8 +4,11 @@
 .project
 .gradle/
 .settings/
+.idea/
+out/
 bin/
 config/checkstyle/checkstyle.xml
 config/checkstyle/checkstyle.xsl
 config/pmd/ruleset.xml
 build/
+*.iml
