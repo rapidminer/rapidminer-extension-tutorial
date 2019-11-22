@@ -4,7 +4,7 @@ RapidMiner Extension Tutorial
 A tutorial project for building a RapidMiner Studio Extension. 
 
 ### Prerequisite
-* Requires Gradle 2.3+ (get it [here](http://gradle.org/installation))
+* Requires Gradle 4.10.2+ (get it [here](http://gradle.org/installation))
 
 ### Getting started
 1. Checkout the tutorial extension
